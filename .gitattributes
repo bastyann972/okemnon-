@@ -1,0 +1,6 @@
+# Set all text files to use LF line endings
+* text=auto
+
+# Force LF for specific files
+*.md text eol=lf
+*.lock text eol=lf
