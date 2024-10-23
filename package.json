@@ -1,4 +1,8 @@
 {
+  "name": "okemon-",
+  "version": "1.0.0",
+  "description": "Un projet React avec Parcel et Sass",
+  "license": "MIT",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
     "parcel": "^2.8.3",
@@ -9,10 +13,9 @@
     
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "scripts": {
+  },"scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "rimraf dist .parcel-cache && parcel build src/index.html",
     "clear": "rimraf dist .parcel-cache"
   }
 }
